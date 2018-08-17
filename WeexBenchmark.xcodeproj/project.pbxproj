@@ -20,8 +20,8 @@
 		DC3A60591FE0C4B400522CFC /* WeexBenchmarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3A60581FE0C4B400522CFC /* WeexBenchmarkUITests.m */; };
 		DC3A606A1FE1072B00522CFC /* WeexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3A60691FE1072B00522CFC /* WeexViewController.m */; };
 		DC3A606D1FE1074000522CFC /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3A606C1FE1074000522CFC /* ReactNativeViewController.m */; };
-		DC3A60AD1FE1528200522CFC /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = DC3A60AC1FE1528200522CFC /* bundlejs */; };
 		DC7BFFD721267F8600AB0B87 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7BFFD621267F8600AB0B87 /* WXImgLoaderDefaultImpl.m */; };
+		DC7BFFD9212686F500AB0B87 /* bundlejs in Resources */ = {isa = PBXBuildFile; fileRef = DC7BFFD8212686F500AB0B87 /* bundlejs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +71,9 @@
 		DC3A60691FE1072B00522CFC /* WeexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexViewController.m; sourceTree = "<group>"; };
 		DC3A606B1FE1074000522CFC /* ReactNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeViewController.h; sourceTree = "<group>"; };
 		DC3A606C1FE1074000522CFC /* ReactNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeViewController.m; sourceTree = "<group>"; };
-		DC3A60AC1FE1528200522CFC /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
 		DC7BFFD521267F8600AB0B87 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
 		DC7BFFD621267F8600AB0B87 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		DC7BFFD8212686F500AB0B87 /* bundlejs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundlejs; sourceTree = "<group>"; };
 		FE5D8F3260BB3C0BE15624AC /* libPods-WeexBenchmarkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeexBenchmarkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,7 +132,7 @@
 		DC3A60281FE0C4B300522CFC = {
 			isa = PBXGroup;
 			children = (
-				DC3A60AC1FE1528200522CFC /* bundlejs */,
+				DC7BFFD8212686F500AB0B87 /* bundlejs */,
 				DC3A60331FE0C4B300522CFC /* WeexBenchmark */,
 				DC3A604C1FE0C4B300522CFC /* WeexBenchmarkTests */,
 				DC3A60571FE0C4B400522CFC /* WeexBenchmarkUITests */,
@@ -307,7 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3A60AD1FE1528200522CFC /* bundlejs in Resources */,
+				DC7BFFD9212686F500AB0B87 /* bundlejs in Resources */,
 				DC3A60411FE0C4B300522CFC /* LaunchScreen.storyboard in Resources */,
 				DC3A603E1FE0C4B300522CFC /* Assets.xcassets in Resources */,
 				DC3A603C1FE0C4B300522CFC /* Main.storyboard in Resources */,
